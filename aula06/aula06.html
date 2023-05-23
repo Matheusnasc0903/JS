@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de Dados</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(97, 44, 146);
+            color: white;
+            font: normal 20px Arial;
+        }
+        h1{
+            color: rgb(224, 224, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tratamento de Dados</h1>
+    <p>Guardando informações</p>
+    <script>
+        /*var n1 = parseInt(prompt('Digite um número: '))
+        var n2 = parseInt(prompt('Digite outro número: '))*/
+        var n1 = Number(prompt('Digite um número: '))
+        var n2 = Number(prompt('Digite outro número: '))
+        var soma = n1 + n2
+        alert(`A somo é igual a ${soma}`)
+        var nome = prompt('Qual o seu nome?')
+        document.writeln(`Olá, ${nome}! Seu nome tem ${nome.length} letras.`)
+        document.writeln(nome.toLocaleLowerCase())
+        document.writeln(nome.toLocaleUpperCase())
+    </script>
+</body>
+</html>
