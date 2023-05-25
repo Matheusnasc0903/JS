@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(100, 0, 255, 0.7);
+}
+section{
+    background-color: rgb(148, 164, 255);
+    padding: 2em;
+    border-radius: 1.5em;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header{
+    padding: 2em;
+    border-radius: 1.5em;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    color: white;
+    padding: 2em;
+    
+    text-align: center;
+}
