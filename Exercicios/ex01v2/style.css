@@ -13,3 +13,14 @@ main{
     width: 60%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
+#title{
+    text-align: center;
+    font-size: 2.5em;
+    margin: .5em;
+}
+#clock{
+    margin: .5em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em
+}
