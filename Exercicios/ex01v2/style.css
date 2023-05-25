@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 200, 150);
+}
+main{
+    background-color: rgb(255, 200, 0);
+    border-radius: 3em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
