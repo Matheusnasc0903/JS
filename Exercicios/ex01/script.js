@@ -9,8 +9,10 @@ function carregar(){
     }
     else if(hora >= 12 && hora <= 18){
         img.src = "../Imagens/tarde.png"
+        document.body.style.backgroundColor = 'rgb()'
     }
     else{
         img.src = "../Imagens/noite.png"
+        document.body.style.backgroundColor = 'rgb()'
     }
 }
