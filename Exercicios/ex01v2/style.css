@@ -3,7 +3,7 @@ body{
     justify-content: center;
     background-color: rgb(255, 200, 150);
 }
-main{
+#main{
     background-color: rgb(255, 200, 0);
     border-radius: 3em;
     padding: 2em;
@@ -23,4 +23,10 @@ main{
     text-align: center;
     font-weight: bold;
     font-size: 1.5em
+}
+#image{
+    margin: .5em;
+    background: linear-gradient(180deg , rgb(100, 200, 255),rgb(255, 100, 0) , rgb(255, 200, 100));
+    padding: .5em;
+    border-radius: 100%;
 }
