@@ -15,7 +15,10 @@
             Relógio
         </h1>
         <p id="clock">Agora são 18:30 horas</p>
-        <img id="image" src="imagens/manha.png" alt="imagem representando o período do dia" srcset="">
+        <picture>
+            <source media="(maxn-width: 530px)" srcset="imagens/manha-pq.png" type="image/">
+            <img id="image" src="imagens/manha.png" alt="imagem representando o período do dia" srcset="">
+        </picture>
     </main>
 
     <script src="script.js"></script>
