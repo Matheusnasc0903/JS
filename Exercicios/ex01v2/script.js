@@ -5,11 +5,13 @@ function relogio(){
     var clock = document.getElementById('clock')
     var image = document.getElementById('image')
     var main = document.getElementById('main')
+    var seconds = date.getSeconds()
 
-    hours < 10 ? hours = `0${hours} ` : hours
+    hours < 10 ? hours = `0${hours}` : hours
     minutes < 10 ? minutes = `0${minutes}` : minutes
+    seconds < 10 ? seconds = `0${seconds}` : seconds
     
-    clock.innerHTML = `${hours}:${minutes}`
+    clock.innerHTML = `${hours}:${minutes} <sup>${seconds}</sup>`
     if (hours >= 5 && hours < 12){
        image.src = "imagens/manha.png"
        document.body.style.backgroundColor ='rgb(255, 200, 150)'
@@ -26,3 +28,4 @@ function relogio(){
         main.style.backgroundColor = 'rgb(0, 20, 80)'
     }
 }
+window.setInterval(relogio, 1000);

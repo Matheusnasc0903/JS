@@ -12,6 +12,9 @@ body{
     width: 60%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
+sup{
+    font-size: .5em;
+}
 #title{
     text-align: center;
     font-size: 2.5em;
