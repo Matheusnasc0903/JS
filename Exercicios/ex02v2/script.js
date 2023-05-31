@@ -13,18 +13,31 @@ function verificar(){
         if (form_sex[0].checked){
             genero = 'Homem'
             if (idade >=0 && idade < 13){
-
+                img.setAttribute('src', '1b.png')
             }else if(idade < 19){
-
+                img.setAttribute('src', '2b.png')
             }else if(idade < 31){
-
+                img.setAttribute('src', '3b.png')
             }else if(idade < 61){
-
+                img.setAttribute('src', '4b.png')
             }else{
-
+                img.setAttribute('src', '5b.png')
             }
         }else{
             genero = 'Mulher'
+            if (idade >=0 && idade < 13){
+                img.setAttribute('src', '1a.png')
+            }else if(idade < 19){
+                img.setAttribute('src', '2a.png')
+            }else if(idade < 31){
+                img.setAttribute('src', '3a.png')
+            }else if(idade < 61){
+                img.setAttribute('src', '4a.png')
+            }else{
+                img.setAttribute('src', '5a.png')
+            }
         }
+        resultado.appendChild(img)
+        resultado.innerHTML = `${genero} com ${idade} anos.`
     }
 }

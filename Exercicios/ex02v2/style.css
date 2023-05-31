@@ -9,7 +9,7 @@ body{
     align-items: center;
     background: linear-gradient(60deg, rgb(130, 130, 255) 0%, rgb(130, 255, 130) 100%);
 }
-#main{
+section{
     background-color: #fff;
     padding: 1.5em;
     border-radius: 1em;
