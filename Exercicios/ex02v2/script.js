@@ -37,7 +37,7 @@ function verificar(){
                 img.setAttribute('src', '5a.png')
             }
         }
-        resultado.appendChild(img)
         resultado.innerHTML = `${genero} com ${idade} anos.`
+        resultado.appendChild(img)
     }
 }
