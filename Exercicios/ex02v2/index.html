@@ -5,11 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>Verificador de Idade</title>
 </head>
 <body>
-    
-    
+    <header><h1>Verificador de Idade</h1></header>
+
+    <section>
+        <div id="main">
+            <p>Ano de Nascimento: <input type="number" name="txtano" id="txtano" min="0" max="200"></p>
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="Verificar" id="verificar-btn" onclick="verificar()">
+        </div>
+
+        <div id="resultado">
+            <p>Preencha o formulário acima!</p>
+        </div>
+    </section>
+
+    <footer><p>&copy; Matheus do Nascimento</p></footer>
 
     <script src="script.js"></script>
 </body>
