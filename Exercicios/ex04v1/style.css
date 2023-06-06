@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 201, 150, 0.5);
+    align-items: center;
+}
+main{
+    background-color: white;
+    max-width: 35em;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+#entrada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#entrada input{
+    text-align: center;
+    border-radius: .5em;
+    width: 15%;
+}
+#saida{
+    display: none;
+}
+#resultado{
+    list-style: none;
+}
