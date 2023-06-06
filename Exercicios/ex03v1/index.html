@@ -9,7 +9,22 @@
 </head>
 <body>
     
-
+    <header><h1>Vamos Contar</h1></header>
+    <main>
+        <section>
+            <div id="entrada">
+                <label for="num-inicio">Começo:</label>
+                <input type="number" name="num-inicio" id="num-inicio"  value="0">
+                <label for="num-fim">Fim:</label>
+                <input type="number" name="num-fim" id="num-fim" value="0">
+                <label for="num-passos">Passos:</label>
+                <input type="number" name="passos" id="passos" min="1" value="1">
+                <button onclick="contar()">Contar</button>
+            </div>
+            <div id="saida"></div>
+        </section>
+    </main>
+    <footer><p>&copy; Matheus do Nascimento</p></footer>
 
     <script src="script.js"></script>
 </body>
