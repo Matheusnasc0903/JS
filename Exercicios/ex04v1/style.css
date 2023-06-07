@@ -28,7 +28,17 @@ main{
 }
 #saida{
     display: none;
+    justify-content: center;
+    align-items: center;
 }
-#resultado{
-    list-style: none;
+#tabuada{
+    width: 50%;
+    text-align: center;
+    height: 18.4em;
+    border-radius: .5em;
+    border: 2px solid black;
+    padding: 1em;
+}
+option{
+    margin: .3em;
 }

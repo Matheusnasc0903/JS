@@ -1,12 +1,14 @@
 function calcular(){
     let mult = Number(document.querySelector("#multiplicador").value)
-    let li = document.querySelector("#resultado")
+    let tab = document.querySelector("#tabuada")
     let saida = document.querySelector("#saida")
-    let t_res = document.querySelector("#t-res")
-    t_res.innerHTML = `Tabuada do ${mult}`
+    tab.innerHTML=''
     for (let i = 0; i < 10; i++) {
         let res = mult * i
-        li.innerHTML += `${res} </br>`
+        let item = document.createElement('option')
+        item.text = `${mult} x ${i} = ${res}`
+        item.value = `tab${i}`
+        tab.appendChild(item)
     }
-    saida.style.display="block"
+    saida.style.display="flex"
 }
